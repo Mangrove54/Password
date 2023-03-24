@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'Blackletter';
+  src: url('fonts/Blackletter.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    font-family: 'Blackletter', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background: black;
+    font-size: 24px;
+    background-image: url("https://collectionapi.metmuseum.org/api/collection/v1/iiif/436050/2104371/main-image");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    
+    
+}
+#container {
+    height: 50%;
+    width: 50%;
+    background:black;
+    margin: 50px auto;
+    border: 2px solid yellow;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    min-width: 500px;
+}
+#colour-head
+{
+    color: yellow
+}
+button
+{
+    background: transparent;
+    color: yellow;
+    border: white solid 2px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 10px 0;
+    font-size:larger;
+    font-family: Blackletter,sans-serif;
+    
+}
+button:hover
+{
+    background-color: yellow;
+    color: black;
+}
+h1{
+    margin-bottom: 1px;
+}
+h5{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+#slidernum
+{
+    border-radius: 8px;
+    width: 30px;
+    border: 1px solid yellow;
+    background-color: black;
+    color: white;
+    
+}
+.slider-con
+{
+    display:flex;
+    align-items: center;
+}
+#passwordSpaceOne,#passwordSpaceTwo
+{
+    background-color: black;
+    color:white;
+    text-align: left;
+    border: 3px solid yellow;
+    padding: 8px;
+    width: 300px;
+}
